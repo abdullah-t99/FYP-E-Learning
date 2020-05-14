@@ -1,0 +1,368 @@
+.about-image {
+  padding-left: 50px;
+  padding-top: 17px;
+  width: 200px;
+}
+
+.feature-image1 {
+  width: 385px;
+  padding-top: 55px;
+}
+
+.feature-image2 {
+  width: 400px;
+}
+
+.feature-image3 {
+  width: 500px;
+  padding-top: 40px;
+}
+
+.feature-fontant {
+  padding-top: 107px;
+}
+
+.item-icon {
+  width: 100px;
+}
+
+.sub-title {
+  padding-top: 25px;
+}
+
+.about-item-grid .item-title {
+  font-size: 30px;
+  color: #fc9246;
+}
+
+.service-item {
+  width: 19%;
+  padding: 15px;
+  margin-top: 30px;
+  min-height: 240px;
+  display: inline-block;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.about-item-grid .item-title {
+  font-size: 30px;
+  color: #fc9246;
+}
+
+.about-item-grid .item-title {
+  font-size: 30px;
+  color: #fc9246;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.service-item .item-icon {
+  width: 175px;
+  height: 175px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 100%;
+  margin: 0px auto 30px;
+  background-color: #ffc055;
+}
+
+.feature-section .feature-item .feature-fontant .item-title {
+  color: #fc9246;
+}
+
+.feature-fontant .item-title {
+  font-size: 36px;
+}
+
+.frac {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  letter-spacing: 0.001em;
+  text-align: center;
+}
+.frac > span {
+  display: block;
+  padding: 0.1em;
+}
+.frac span.bottom {
+  border-top: thin solid black;
+}
+.frac span.symbol {
+  display: none;
+}
+
+.topicbox {
+  border: 1px solid lightgray;
+  box-shadow: 2px 3px lightgrey;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.topicwrapper {
+  width: 600px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 125px);
+  grid-template-rows: 125px 125px 125px;
+  grid-auto-flow: row;
+}
+
+#DivForHoverItem {
+  /*just so we can see it*/
+  height: 50px;
+  width: 300px;
+  background-color: #fc9246;
+}
+
+#HiddenText {
+  display: none;
+}
+
+#DivForHoverItem:hover #HiddenText {
+  display: block;
+  color: white;
+}
+
+.bold {
+  font-size: 30px;
+  padding-left: 320px;
+}
+
+.multiplyDecimal1 {
+  width: 500px;
+  margin-left: 115px;
+}
+
+.decimalExample {
+  font-size: larger;
+  color: #e07f39;
+}
+
+.dividingDecimalExample {
+  background-color: #dedede;
+  margin-right: 100px;
+}
+
+.so {
+  margin-left: 70px;
+  font-size: larger;
+  padding-left: 10px;
+}
+
+.center {
+  font-size: larger;
+  margin-left: 250px;
+}
+
+.center-larger {
+  font-size: x-large;
+  margin-left: 230px;
+}
+
+.remember {
+  margin-left: 75px;
+  margin-right: 75px;
+  background-color: orange;
+}
+
+.longdiv {
+  height: 150px;
+  margin-left: 250px;
+}
+
+.longdivision {
+  width: 90px;
+  margin-left: 235px;
+}
+
+.dectofraction {
+  width: 140px;
+  margin-left: 250px;
+}
+
+.dectofraction2 {
+  height: 95px;
+  padding-left: 212px;
+}
+
+.dectofraction4 {
+  height: 95px;
+  padding-left: 268px;
+}
+
+.D2PIntro {
+  background-color: bisque;
+  border: solid;
+}
+
+.paddingExample {
+  padding-left: 10px;
+}
+
+.example548 {
+  font-size: large;
+  padding-left: 280px;
+}
+
+.percentageDiff {
+  width: 400px;
+  margin-left: 200px;
+}
+
+.properFractionExample {
+  margin-left: 169px;
+  margin-right: 200px;
+}
+
+.ExampleBoarder {
+  background-color: #ffab8a;
+  border: solid;
+}
+
+/* 
+
+
+TIMETABLE CSSS START
+
+
+
+*/
+
+.control {
+  display: flex;
+}
+.options,
+.sum {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  font-size: 0.7em;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+  border-radius: 4px;
+}
+.options {
+  width: 680px;
+  display: flex;
+  justify-content: space-between;
+}
+.options input {
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  width: 40px;
+  text-align: right;
+  padding: 2px;
+  margin-left: 6px;
+}
+#show-color {
+  width: 28px;
+  height: 16px;
+  display: inline-block;
+  /* 	padding: 2px; */
+  margin-left: 2px;
+  border-radius: 4px;
+}
+.reset {
+  padding: 2px 12px;
+  background: #888;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #aaa;
+}
+.reset:active {
+  box-shadow: none;
+  transform: translate(1px, 1px);
+  outline: none;
+}
+input:focus,
+.reset:focus {
+  outline: none;
+  background: #888;
+  color: white;
+}
+.sum {
+  margin-left: 2em;
+  padding-top: 8px;
+  display: none;
+}
+.sum .product {
+  font-weight: bold;
+}
+.table {
+  border-collapse: collapse;
+  font-size: 0.75em;
+}
+.table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.table tr:first-child {
+  font-weight: bold;
+  background-color: #cacaca;
+}
+.table tr td:first-child {
+  font-weight: bold;
+  background-color: #cacaca;
+}
+
+.fractionPizza {
+  width: 190px;
+  margin-left: 250px;
+}
+
+.example28 {
+  margin-right: 300px;
+}
+
+.pizza28 {
+  width: 150px;
+  margin-left: 160px;
+}
+
+.fractionToDecimal {
+  width: 120px;
+  margin-left: 300px;
+}
+
+/* .table,
+th,
+td {
+  border: 1px solid #aaa;
+} */
+.table td {
+  padding: 4px 6px;
+  width: 28px;
+  text-align: right;
+}
+.table .ch {
+  width: 20px;
+}
+
+.footer {
+  font-size: 0.7em;
+  color: #888;
+  margin-top: 0.5em;
+  display: none;
+}
+.footer input {
+  width: 80px;
+  color: #888;
+  border: none;
+  font-weight: bold;
+}
+.footer input:focus {
+  outline: none;
+}
+
+.time-table {
+  width: 800px;
+  margin-left: 30px;
+}
