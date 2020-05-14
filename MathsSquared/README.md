@@ -1,6 +1,6 @@
 # Maths Squared
 
-Anas Final Project
+Abdullah Final Project
 
 ## Getting started
 
